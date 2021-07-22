@@ -8,8 +8,8 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #222;
-  background: #f7f5f0;
+  color: white;
+  background:#020230;
 }
 /* Link Styles */
 
@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/denver-night.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -74,7 +74,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.5) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -86,20 +86,20 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: white;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
+  background: #a4a2a2;
+  border-bottom: 4px solid white;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #049aff;
 }
 
 ul.skills {
