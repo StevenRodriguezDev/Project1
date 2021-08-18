@@ -216,3 +216,17 @@ body .resume-profile{
   border: 3px solid white;
   transition: all .5s;
 }
+
+/* styeles for hobbies  */
+h1 {
+  color:tomato;
+}
+
+body .hobbies-page{
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
